@@ -10777,7 +10777,7 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(44, 42, 41, 0.9);
+  background-color: rgba(206, 184, 136, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
