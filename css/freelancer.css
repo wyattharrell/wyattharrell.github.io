@@ -6919,10 +6919,6 @@ a.close.disabled {
   background-color: #782f40 !important;
 }
 
-.bg-newcolor {
-  background-color: #782F40
-}
-
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
