@@ -10609,7 +10609,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .divider-custom .divider-custom-icon {
-  color: #2C2A29 !important;
+  color: #2 !important;
   font-size: 2rem;
 }
 
@@ -10872,5 +10872,5 @@ form .row:first-child .floating-label-form-group {
 }
 
 .copyright {
-  background-color: #2C2A29;
+  background-color: #000000;
 }
