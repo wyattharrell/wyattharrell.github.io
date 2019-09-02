@@ -167,7 +167,7 @@ a {
 }
 
 a:hover {
-  color: #117964;
+  color: #2C2A29;
   text-decoration: underline;
 }
 
@@ -10872,5 +10872,5 @@ form .row:first-child .floating-label-form-group {
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #2C2A29;
 }
