@@ -14,4 +14,4 @@ iStats was created as a program to output statistics on sent iMessages. iStats w
 iStats was motivated by Apple's lack of a proper search functionality (prior to iOS 13) for messages in iMessage. As our semester long group project in CIS 4930: Python Programming we created iStats to both create a search functionality, while also outputting other interesting user data such as: most used words, emojis, most texted contact number, and more.
 
 <center><a href="https://github.com/wyattharrell/iStats" target="_blank">
-<img src="assets/img/GitHub-Logo.png" style="height: 20px" alt="GitHub"></a></center>
+<img src="/assets/img/GitHub-Logo.png" style="height: 20px" alt="GitHub"></a></center>
