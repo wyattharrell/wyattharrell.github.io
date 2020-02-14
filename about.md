@@ -16,7 +16,7 @@ Minor in Entrepreneurship
 **Honors and Awards**  
 * Florida State University Undergraduate Tony DiBenedetto Student Employee of the Year (Overall Winner)  
 * Student App of the Month in London App Brewery’s monthly newsletter, The L.A.B. Report
-* One of only two coxswains chosen to represent the United States through a 3-month selection camp. Competed at the 2015 World Rowing Junior Championships in Rio de Janeiro, Brazil and placed fourth in the world, the best finish for our division since 2005
+* One of only two coxswains chosen to represent the United States through a 3-month selection camp. Competed at the 2015 World Rowing Junior Championships in Rio de Janeiro, Brazil
 
 ## Resume
 
