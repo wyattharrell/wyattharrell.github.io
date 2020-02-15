@@ -10,7 +10,7 @@ permalink: /about-me
 iOS Development
 
 **Florida State University** (2015-2019)  
-B.A. in Computer Science
+B.A. in Computer Science  
 Minor in Entrepreneurship
 
 **Honors and Awards**  
