@@ -7,7 +7,7 @@ permalink: /about-me
 ## Education
 
 **Lambda School** (2020-Current)  
-iOS Development
+iOS Development & Computer Science
 
 **Florida State University** (2015-2019)  
 B.A. in Computer Science  
