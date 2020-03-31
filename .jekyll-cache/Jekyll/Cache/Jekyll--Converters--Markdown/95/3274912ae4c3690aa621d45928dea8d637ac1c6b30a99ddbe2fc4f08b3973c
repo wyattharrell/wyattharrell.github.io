@@ -1,0 +1,21 @@
+I"<h3 id="motivation">Motivation</h3>
+
+<p>As my first building exercise at Lambda School, I teamed up with a classmate of mine to tackle our first build week project. Our job was to simply create a mortgage calculator. Instead, we decided to make an app full of features that could facilitate many different aspects of the home buying experience. We divided the app into four tabs, each of us building out two of those tabs. My partner took on the mortgage caclulator and home buying tips, while I built a home affortability calculator and cost of living calculator. Together, we created <em>Simple Home Calculator</em>.</p>
+
+<p>My goal from the beginning was to create a consistant UI accross the four tabs. To do this, I decided to adopt the use of SF Symbols and a green tint into our project.</p>
+
+<h3 id="my-role">My Role</h3>
+
+<p>I researched preexisting home affortability calculators online in order to get an accurate representation of what I would build. I was able to find an Excel spreadsheet that gave me the formulas I used to build mine. The hard part, was converting some of Excel’s built-in functions into Swift.</p>
+
+<p>// IMAGE OF FORMULAS</p>
+
+<p>In order to</p>
+
+<center><a href="https://github.com/wyattharrell/build-week-1" target="_blank">
+<img src="/assets/img/GitHub-Logo.png" style="height: 20px" alt="GitHub" /></a></center>
+
+<p>The goal of our first build week was to build an app using the … we had learned in the previous 
+with basic persistance
+We took it a step further by incorporating a pod as well as reading from JSON.</p>
+:ET

@@ -4,14 +4,15 @@ title: "Nametag: Name Your Phone"
 date: 2019-12-11 00:00:00 +0300
 description: # Add post description (optional)
 img: nametag.png # Add image post (optional)
-tags: [iOS, App] # add tag
+tags: [iOS] # add tag
 ---
 
-Nametag is the only app that makes it easy to reclaim your lost phone. Think “luggage tag,” but for your phone. Nametag lets you display your name, email address, and an emergency contact number on your lock screen to help whoever finds your phone get in touch with you. 
+You carry around a luggage tag for when you lose your suitcase, why not do the same for when you lose your phone? Nametag allows you to display your basic contact details on your lock screen when someone swipes right, even when it is locked. Create your Nametag and never lose your phone again. Nametag is like an always-on "lost mode" that lets you display your name, email address, and an emergency contact number to help whoever finds your phone get in touch with you to easily return your lost phone. If you constantly leave your phone behind, or just want some peace of mind, let Nametag help you reclaim your lost phone.
+
 
 ### Motivation
 
-I had the idea for Nametag during my second year at Florida State. I noticed a large number of posts on Facebook from people posting photos of phones they had found during the previous night. Each post relied on people who recognized the lock screen background or recent messages on the screen. To solve this problem, I created Nametag.
+I had the idea for Nametag during my second year at Florida State University. I noticed a large number of posts on Facebook from students about phones they had either lost during the previous night or found in the morning. Each post relied on people who recognized the lock screen background or recent incoming messages on the lock screen. To solve this problem, I created Nametag.
 
 ### Awards
 
