@@ -19,9 +19,7 @@ I researched preexisting home affordability calculators online in order to get a
 
 For the cost of living calculator, I was able to find a relevant JSON file from 2019 containing cost of living information for each state in the US including its cost rank, housing cost, utilities cost, etc. I loaded in the local JSON using Codable and determined a cost increase or decrease based on the user's current location and future location's cost rank.
 
-
-
-<center><a href="https://github.com/wyattharrell/build-week-1" target="_blank">
+<center><a href="https://github.com/wyattharrell/simple-home-calculator" target="_blank">
 <img src="/assets/img/GitHub-Logo.png" style="height: 35px" alt="GitHub"></a></center>
 
 
