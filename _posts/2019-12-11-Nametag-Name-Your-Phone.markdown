@@ -4,6 +4,8 @@ title: "Nametag: Name Your Phone"
 date: 2019-12-11 00:00:00 +0300
 description: # Add post description (optional)
 img: nametag.png # Add image post (optional)
+b_img: nametag_banner.png
+desc: Available on the App Store
 tags: [iOS] # add tag
 ---
 

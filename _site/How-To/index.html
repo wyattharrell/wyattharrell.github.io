@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>How-To Tutorial App - Wyatt Harrell - Portfolio</title>
+
+  <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
+
+    <meta content="Wyatt Harrell - Portfolio" property="og:site_name">
+  
+    <meta content="How-To Tutorial App" property="og:title">
+  
+  
+    <meta content="article" property="og:type">
+  
+  
+    <meta content="I am a Computer Science graduate from Florida State University who is currently learning iOS Development at Lambda School.
+" property="og:description">
+  
+  
+    <meta content="http://localhost:4000/How-To/" property="og:url">
+  
+  
+    <meta content="2020-06-01T17:00:00-04:00" property="article:published_time">
+    <meta content="http://localhost:4000/about/" property="article:author">
+  
+  
+    <meta content="http://localhost:4000/assets/img/howto.png" property="og:image">
+  
+  
+    
+  
+  
+    
+    <meta content="iOS" property="article:tag">
+    
+  
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@wyatt_harrell">
+  
+    <meta name="twitter:title" content="How-To Tutorial App">
+  
+  
+    <meta name="twitter:url" content="http://localhost:4000/How-To/">
+  
+  
+    <meta name="twitter:description" content="I am a Computer Science graduate from Florida State University who is currently learning iOS Development at Lambda School.
+">
+  
+  
+    <meta name="twitter:image:src" content="http://localhost:4000/assets/img/howto.png">
+  
+
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#263959">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#263959">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <aside class="sidebar">
+  <header>
+            <!-- Place this tag in your head or just before your close body tag. -->
+            <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <div class="about">
+      <div class="cover-author-image">
+        <a href="/"><img src="/assets/img/wyatt-harrell.png" alt="Wyatt Harrell"></a>
+      </div>
+      <!-- <div class="author-name">Wyatt Harrell</div> --><p><b>Wyatt Harrell</b></p>
+      <p>B.A. in Computer Science from Florida State University. Currently learning iOS Development at Lambda School.</p>
+      <a href="/about-me"><button class="button5">About Me</button></a>
+    </div>
+  </header> <!-- End Header -->
+  <footer>
+    <section class="contact">
+      <h3 class="contact-title">Contact me</h3>
+      <ul>
+        
+          <li><a href="https://twitter.com/wyatt_harrell" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        
+        <!-- 
+          <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+         -->
+        
+          <li class="github"><a href="http://github.com/wyattharrell" target="_blank"><i class="fa fa-github"></i></a></li>
+        
+        
+          <li class="linkedin"><a href="https://in.linkedin.com/in/wyattharrell" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        
+        
+          <li class="email"><a href="mailto:wyattaharrell@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+        
+      </ul>
+    </section> <!-- End Section Contact -->
+    <div class="copyright">
+      <p>2020 &copy; Wyatt Harrell</p>
+    </div>
+  </footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+<div class="content-box clearfix">
+  <article class="article-page">
+  <div class="page-content">
+    
+    <div class="page-cover-image">
+      <figure>
+        <img class="page-image" src=/assets/img/howto.png alt="How-To Tutorial App">
+        
+      </figure>
+    </div> <!-- End Page Cover Image -->
+    
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">How-To Tutorial App</h1>
+        <div class="page-date"><span>2020, Jun 01&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+      </header>
+      <h3 id="motivation">Motivation</h3>
+
+<p>As my second building exercise at Lambda School, I worked in a cross functional team of web developers, data scientists, and iOS developers. I assumed the senior iOS developer role and led my team to create a how-to tutorial app. The app featured login and registration for both an instructor and a user. Users were able to view and bookmark their favorite tutorials while instructors could create and share new tutorials within the app. Each user would be presented with their corresponing onboarding processes upon registration. Once logged in, they were presented with a feed of tutorials sorted by number of likes. They could view, search, and bookmark these tutorials. Once bookmarked, a tutorial was added to CoreData for offline viewing.</p>
+
+<h3 id="challenges">Challenges</h3>
+
+<p>Creating and viewing tutorials proved challenging early on in the development process. Because there was no limit to how many steps could be associated with a tutorial, much of the view controllers for creating and viewing a tutorial had to be created programmatically. This included creating UITextFields and UIViews on the fly. To see this implementation, refer to lines 35-86 by clicking <a href="https://github.com/BuildWeek-HowTo-2/iOS/blob/669745b1b4c9b37b4cbe6e8f6def5fb61e1c2042/How-To/How-To/View%20Controllers/Profile/CreateHowToViewController.swift#L35" target="_blank">here.</a></p>
+
+<p>Another challenge that arose early on in the development process was the complexity involved with creating new how-to tutorials. In order to create a tutorial, an instructor had to send a POST request with a title and summary using their given instructor ID. Once they received a response from the server with the newly created tutorial ID, they had to then POST each tutorial step individually using the retured tutorial ID. This meant that to create a tutorial with three steps, the app would need to make four POST requests. To solve this problem, I used block operations. To see this implementation, refer to lines 89-135 by clicking <a href="https://github.com/BuildWeek-HowTo-2/iOS/blob/669745b1b4c9b37b4cbe6e8f6def5fb61e1c2042/How-To/How-To/View%20Controllers/Profile/CreateHowToViewController.swift#L89" target="_blank">here.</a></p>
+
+<!-- Place this tag where you want the button to render. -->
+<center><a class="github-button" href="https://github.com/BuildWeek-HowTo-2/iOS" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Use this template wyattharrell/istats on GitHub">View on GitHub</a></center>
+
+
+      <div class="page-footer">
+        <div class="page-share">
+          <a href="https://twitter.com/intent/tweet?text=How-To Tutorial App&url=http://localhost:4000/How-To/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/How-To/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://plus.google.com/share?url=http://localhost:4000/How-To/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+        </div>
+        <div class="page-tag">
+          
+            <a href="/tags#iOS" class="tag">&#35; iOS</a>
+          
+        </div>
+      </div>
+    </div> <!-- End Wrap Content -->
+  </div> <!-- End Page Content -->
+</article> <!-- End Article Page -->
+
+</div>
+
+  </div>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158608138-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-158608138-1');
+</script>
+
+
+</body>
+</html>

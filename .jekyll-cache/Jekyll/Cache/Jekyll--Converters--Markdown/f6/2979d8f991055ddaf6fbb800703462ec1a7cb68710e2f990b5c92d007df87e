@@ -1,0 +1,9 @@
+I"‰<p>Linkbook is a powerful web-app that can store your favorite links and keep you organized. Linkbook does all the work for the user by parsing websites to give them a snapshot of each page they save by grabbing the websiteâ€™s top image, title, and summary beased on the link provided. It also recommends related websites based on keywords found in each website they save. Users can organize their links based on category and even share saved links to their friends. Login and registaration is required and was handled using Firebase.</p>
+
+<h3 id="motivation">Motivation</h3>
+
+<p>Linkbook was created as a better bookmarking tool in order to all users to keep up with links based on their corresponding category. It was written as part of my semester long project in <em>Software Engineering (CEN 4020)</em> at Florida State University.</p>
+
+<!-- Place this tag where you want the button to render. -->
+<center><a class="github-button" href="https://github.com/wyattharrell/linkbook/" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Use this template wyattharrell/linkbook on GitHub">View on GitHub</a></center>
+:ET

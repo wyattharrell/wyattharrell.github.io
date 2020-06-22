@@ -1,0 +1,21 @@
+I"h	<h3 id="motivation">Motivation</h3>
+
+<p>As my second building exercise at Lambda School, I worked in a cross functional team of web developers, data scientists, and iOS developers. I assumed the senior iOS developer role and led my team to create a how-to tutorial app. The app featured login and registration for both an instructor and a user. Users were able to view and bookmark their favorite tutorials while instructors could create and share new tutorials within the app. Each user would be presented with their corresponing onboarding processes upon regestration. Once logged in, they were presented with a feed of tutorials sorted by number of likes. They could view, search, and bookmark these tutorials. Once bookmarked, a tutorial was added to CoreData for offline viewing.</p>
+
+<h3 id="challenges">Challenges</h3>
+
+<p>Creating and viewing tutorials proved challenging early on in the development process. Because there was no limit to how many steps could be associated with a tutorial, much of the view controllers for creating and viewing a tutorial had to be created programmatically.</p>
+
+<p>https://github.com/BuildWeek-HowTo-2/iOS/blob/669745b1b4c9b37b4cbe6e8f6def5fb61e1c2042/How-To/How-To/View%20Controllers/Profile/CreateHowToViewController.swift#L35</p>
+
+<p>One of the challenges that arose early on in the development process was the ability to send POST requests for creating tutorials. In order to create a how-to tutorial, an instructor had to send a POST request with a title and summary using their given instructor ID. Once they received a response from the server with the newly created tutorial ID, they had to then POST each tutorial step individually using the retured tutorial ID. To solve this problem, I</p>
+
+<p>https://github.com/BuildWeek-HowTo-2/iOS/blob/669745b1b4c9b37b4cbe6e8f6def5fb61e1c2042/How-To/How-To/View%20Controllers/Profile/CreateHowToViewController.swift#L89</p>
+<h3 id="my-role">My Role</h3>
+
+<p>My role began as the senior iOS developer on a cross functional build week. I quickly assumed the role of both the junior and senior iOS</p>
+
+<!-- Place this tag where you want the button to render. -->
+<center><a class="github-button" href="https://github.com/BuildWeek-HowTo-2/iOS" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Use this template wyattharrell/istats on GitHub">View on GitHub</a></center>
+
+:ET

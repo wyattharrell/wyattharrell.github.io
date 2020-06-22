@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Simple Home Calculator (Build Week)"
+title: "Simple Home Calculator"
 date: 2020-03-07 00:00:00 +0300
 description: # Add post description (optional)
 img: simplehomecalculator.png # Add image post (optional)
+b_img: simplehomecalculator.png # Add post image (optional)
+desc: "Lambda School - Build Week 1"
 tags: [iOS] # add tag
 ---
 
@@ -15,12 +17,12 @@ The main requirement for our build week project was to use basic persistence and
 
 ### My Role
 
-I researched preexisting home affordability calculators online in order to get an accurate representation of what I would build. I was able to find an Excel spreadsheet that gave me the formulas I used to build my calculator. The hard part was converting some of Excel's built-in functions into Swift functions. I was also tasked with setting up our project with a cocoapod for displaying charts. I chose Charts which we both used to display results from our calculators. Lastly, I added basic persistence for each calculation so the user could view the results again later or compare calculations with different values.
+I researched preexisting home affordability calculators online in order to get an accurate representation of what I would build. I was able to find an Excel spreadsheet that gave me the formulas I used to build my calculator. The hard part was converting some of Excel's built-in functions into Swift functions. I was also tasked with setting up our project with a cocoapod for displaying charts. I chose Charts, which we both used to display results from our calculators. Lastly, I added basic persistence for each calculation so the user could view the results again later or compare calculations with different values.
 
 For the cost of living calculator, I was able to find a relevant JSON file from 2019 containing cost of living information for each state in the US including its cost rank, housing cost, utilities cost, etc. I loaded in the local JSON using Codable and determined a cost increase or decrease based on the user's current location and future location's cost rank.
 
-<center><a href="https://github.com/wyattharrell/simple-home-calculator" target="_blank">
-<img src="/assets/img/GitHub-Logo.png" style="height: 35px" alt="GitHub"></a></center>
+<!-- Place this tag where you want the button to render. -->
+<center><a class="github-button" href="https://github.com/wyattharrell/simple-home-calculator/" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Use this template wyattharrell/simple-home-calculator on GitHub">View on GitHub</a></center>
 
 
 
