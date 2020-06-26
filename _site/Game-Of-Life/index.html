@@ -155,12 +155,12 @@
 <figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="kd">class</span> <span class="kt">GameBoard</span><span class="p">:</span> <span class="kt">NSObject</span> <span class="p">{</span>
     <span class="c1">// MARK: - Properties</span>
     <span class="kd">@objc</span> <span class="kd">dynamic</span> <span class="k">var</span> <span class="nv">generation</span><span class="p">:</span> <span class="kt">Int</span>
-    <span class="kd">@objc</span> <span class="kd">dynamic</span> <span class="k">var</span> <span class="nv">population</span><span class="p">:</span> <span class="kt">Int</span></code></pre></figure>
+    <span class="kd">@objc</span> <span class="kd">dynamic</span> <span class="k">var</span> <span class="nv">population</span><span class="p">:</span> <span class="kt">Int</span>
+    <span class="o">...</span></code></pre></figure>
 
 <p>Back in the <code class="highlighter-rouge">GameOfLifeViewController</code>, I set up the observers to configure the labels.</p>
 
-<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="kd">class</span> <span class="kt">GameBoard</span><span class="p">:</span> <span class="kt">NSObject</span> <span class="p">{</span>
-<span class="kd">private</span> <span class="k">var</span> <span class="nv">generationObserver</span><span class="p">:</span> <span class="kt">NSKeyValueObservation</span><span class="p">?</span>
+<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="kd">private</span> <span class="k">var</span> <span class="nv">generationObserver</span><span class="p">:</span> <span class="kt">NSKeyValueObservation</span><span class="p">?</span>
 <span class="kd">private</span> <span class="k">var</span> <span class="nv">populationObserver</span><span class="p">:</span> <span class="kt">NSKeyValueObservation</span><span class="p">?</span>
 
 <span class="n">generationObserver</span> <span class="o">=</span> <span class="n">golView</span><span class="o">.</span><span class="n">gameBoard</span><span class="o">.</span><span class="nf">observe</span><span class="p">(\</span><span class="o">.</span><span class="n">generation</span><span class="p">)</span> <span class="p">{</span> <span class="p">[</span><span class="k">weak</span> <span class="k">self</span><span class="p">]</span> <span class="n">object</span><span class="p">,</span> <span class="n">_</span>  <span class="k">in</span>

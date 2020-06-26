@@ -30,12 +30,12 @@ class GameBoard: NSObject {
     // MARK: - Properties
     @objc dynamic var generation: Int
     @objc dynamic var population: Int
+    ...
 {% endhighlight %}
 
 Back in the `GameOfLifeViewController`, I set up the observers to configure the labels.
 
 {% highlight swift %}
-class GameBoard: NSObject {
 private var generationObserver: NSKeyValueObservation?
 private var populationObserver: NSKeyValueObservation?
 
