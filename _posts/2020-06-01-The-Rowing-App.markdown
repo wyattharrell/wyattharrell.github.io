@@ -4,7 +4,7 @@ title: "The Rowing App"
 date: 2020-06-05 00:00:00 +0300
 description: # Add post description (optional)
 img: therowingapp.png # Add image post (optional)
-b_img: therowingapp.png # Add post image (optional)
+b_img: therowingapp_banner.png # Add post image (optional)
 desc: "Coming soon to macOS and iOS"
 tags: [iOS] # add tag
 ---
