@@ -9,10 +9,9 @@ desc: "Coming soon to macOS and iOS"
 tags: [iOS] # add tag
 ---
 
+<center><a href="https://twitter.com/therowingapp?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @therowingapp</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+
 As a 2015 United States Junior National Team coxswain, I am excited to be developing an app for rowing coaches and athletes. Coming soon to iOS and macOS.
-
-
-<a href="https://twitter.com/therowingapp?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @therowingapp</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Features
 

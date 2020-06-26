@@ -1,14 +1,0 @@
-I"<h3 id="motivation">Motivation</h3>
-
-<p>As my first building exercise at Lambda School, I teamed up with a classmate of mine to tackle building a full iOS app in five days. Our job was to simply create a mortgage calculator. Instead, we decided to make an app full of features that could facilitate many different aspects of the home buying experience. We divided the app into four tabs, each of us building out two of those tabs. My partner took on the mortgage calculator  and home buying tips, while I built a home affordability calculator and cost of living calculator. Together, we created <em>Simple Home Calculator</em>.</p>
-
-<p>The main requirement for our build week project was to use basic persistence and the MVC (Model View Controller) design pattern. We took it a step further by incorporating the use of a cocoapod (<a href="https://github.com/danielgindi/Charts">Charts</a>) and loading objects from local JSON. I also wanted our app to have a consistent UI across all four tabs, so I incorporated the use of SF Symbols and a green tint across our app.</p>
-
-<h3 id="my-role">My Role</h3>
-
-<p>My role began as the senior iOS developer on a cross functional build week. I quickly assumed the role of both the junior and senior iOS</p>
-
-<!-- Place this tag where you want the button to render. -->
-<center><a class="github-button" href="https://github.com/BuildWeek-HowTo-2/iOS" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Use this template wyattharrell/istats on GitHub">View on GitHub</a></center>
-
-:ET

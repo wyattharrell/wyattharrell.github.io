@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>How-To Tutorial App - Wyatt Harrell - Portfolio</title>
+	<title>How-To Tutorials - Wyatt Harrell - Portfolio</title>
 
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
 
     <meta content="Wyatt Harrell - Portfolio" property="og:site_name">
   
-    <meta content="How-To Tutorial App" property="og:title">
+    <meta content="How-To Tutorials" property="og:title">
   
   
     <meta content="article" property="og:type">
@@ -40,7 +40,7 @@
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@wyatt_harrell">
   
-    <meta name="twitter:title" content="How-To Tutorial App">
+    <meta name="twitter:title" content="How-To Tutorials">
   
   
     <meta name="twitter:url" content="http://localhost:4000/How-To/">
@@ -88,7 +88,7 @@
         <a href="/"><img src="/assets/img/wyatt-harrell.png" alt="Wyatt Harrell"></a>
       </div>
       <!-- <div class="author-name">Wyatt Harrell</div> --><p><b>Wyatt Harrell</b></p>
-      <p>B.A. in Computer Science from Florida State University. Currently learning iOS Development at Lambda School.</p>
+      <p>iOS Developer with a B.A. in Computer Science from Florida State University. Currently at Lambda School.</p>
       <a href="/about-me"><button class="button5">About Me</button></a>
     </div>
   </header> <!-- End Header -->
@@ -124,33 +124,33 @@
     
     <div class="page-cover-image">
       <figure>
-        <img class="page-image" src=/assets/img/howto.png alt="How-To Tutorial App">
+        <img class="page-image" src=/assets/img/howto.png alt="How-To Tutorials">
         
       </figure>
     </div> <!-- End Page Cover Image -->
     
     <div class="wrap-content">
       <header class="header-page">
-        <h1 class="page-title">How-To Tutorial App</h1>
+        <h1 class="page-title">How-To Tutorials</h1>
         <div class="page-date"><span>2020, Jun 01&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
-      <h3 id="motivation">Motivation</h3>
+      <!-- View on GitHub -->
+<center><a class="github-button" href="https://github.com/BuildWeek-HowTo-2/iOS" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Use this template wyattharrell/istats on GitHub">View on GitHub</a></center>
 
-<p>As my second building exercise at Lambda School, I worked in a cross functional team of web developers, data scientists, and iOS developers. I assumed the senior iOS developer role and led my team to create a how-to tutorial app. The app featured login and registration for both an instructor and a user. Users were able to view and bookmark their favorite tutorials while instructors could create and share new tutorials within the app. Each user would be presented with their corresponing onboarding processes upon registration. Once logged in, they were presented with a feed of tutorials sorted by number of likes. They could view, search, and bookmark these tutorials. Once bookmarked, a tutorial was added to CoreData for offline viewing.</p>
+<h3 id="motivation">Motivation</h3>
+
+<p>As my second building exercise at Lambda School, I worked in a cross functional team of web developers, data scientists, and iOS developers. I assumed the senior iOS developer role and led my team to create a how-to tutorial app. The app featured login and registration for both an instructor and a user. Users were able to view and bookmark their favorite tutorials while instructors could create and share new tutorials within the app. Each user would be presented with their corresponding onboarding processes upon registration. Once logged in, they were presented with a feed of tutorials sorted by number of likes. They could view, search, and bookmark these tutorials. Once bookmarked, a tutorial was added to CoreData for offline viewing.</p>
 
 <h3 id="challenges">Challenges</h3>
 
 <p>Creating and viewing tutorials proved challenging early on in the development process. Because there was no limit to how many steps could be associated with a tutorial, much of the view controllers for creating and viewing a tutorial had to be created programmatically. This included creating UITextFields and UIViews on the fly. To see this implementation, refer to lines 35-86 by clicking <a href="https://github.com/BuildWeek-HowTo-2/iOS/blob/669745b1b4c9b37b4cbe6e8f6def5fb61e1c2042/How-To/How-To/View%20Controllers/Profile/CreateHowToViewController.swift#L35" target="_blank">here.</a></p>
 
-<p>Another challenge that arose early on in the development process was the complexity involved with creating new how-to tutorials. In order to create a tutorial, an instructor had to send a POST request with a title and summary using their given instructor ID. Once they received a response from the server with the newly created tutorial ID, they had to then POST each tutorial step individually using the retured tutorial ID. This meant that to create a tutorial with three steps, the app would need to make four POST requests. To solve this problem, I used block operations. To see this implementation, refer to lines 89-135 by clicking <a href="https://github.com/BuildWeek-HowTo-2/iOS/blob/669745b1b4c9b37b4cbe6e8f6def5fb61e1c2042/How-To/How-To/View%20Controllers/Profile/CreateHowToViewController.swift#L89" target="_blank">here.</a></p>
-
-<!-- Place this tag where you want the button to render. -->
-<center><a class="github-button" href="https://github.com/BuildWeek-HowTo-2/iOS" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Use this template wyattharrell/istats on GitHub">View on GitHub</a></center>
+<p>Another challenge that arose early on in the development process was the complexity involved with creating new how-to tutorials. In order to create a tutorial, an instructor had to send a POST request with a title and summary using their given instructor ID. Once they received a response from the server with the newly created tutorial ID, they had to then POST each tutorial step individually using the returned tutorial ID. This meant that to create a tutorial with three steps, the app would need to make four POST requests. To solve this problem, I used block operations. To see this implementation, refer to lines 89-135 by clicking <a href="https://github.com/BuildWeek-HowTo-2/iOS/blob/669745b1b4c9b37b4cbe6e8f6def5fb61e1c2042/How-To/How-To/View%20Controllers/Profile/CreateHowToViewController.swift#L89" target="_blank">here.</a></p>
 
 
       <div class="page-footer">
         <div class="page-share">
-          <a href="https://twitter.com/intent/tweet?text=How-To Tutorial App&url=http://localhost:4000/How-To/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://twitter.com/intent/tweet?text=How-To Tutorials&url=http://localhost:4000/How-To/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
           <a href="https://facebook.com/sharer.php?u=http://localhost:4000/How-To/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
           <a href="https://plus.google.com/share?url=http://localhost:4000/How-To/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
         </div>

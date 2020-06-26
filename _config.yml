@@ -1,6 +1,6 @@
 title: Wyatt Harrell - Portfolio
 description: > # this means to ignore newlines until "baseurl:"
-  I am a Computer Science graduate from Florida State University who is currently learning iOS Development at Lambda School.
+  iOS Developer with a B.A. in Computer Science from Florida State University. Currently at Lambda School.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://wyattharrell.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -9,7 +9,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Wyatt Harrell # add your name
 author-img: wyatt-harrell.png # add your photo
-about-author: B.A. in Computer Science from Florida State University. Currently learning iOS Development at Lambda School. # add description
+about-author: iOS Developer with a B.A. in Computer Science from Florida State University. Currently at Lambda School. # add description
 social-twitter: wyatt_harrell # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: wyattharrell # add your Github handle
