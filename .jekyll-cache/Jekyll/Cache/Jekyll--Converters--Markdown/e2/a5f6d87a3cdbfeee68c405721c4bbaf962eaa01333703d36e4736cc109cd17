@@ -1,0 +1,33 @@
+I"%<h3 id="introduction">Introduction</h3>
+
+<blockquote>
+  <p>While other companies design beutiful hardware, excel at marketing, hire good lawyers, and manufacture gadgets at scale, no other company makes software as intuitive, carefully crafted, or just plain fun. If there is unique magic in Apple’s products, it’s in the software. –<em>Creative Selection</em> by Ken Kocienda</p>
+</blockquote>
+
+<p>This blog post was written concurently along with my work on The Rowing App. Some things here apply to this app specificly, but the general ideas apply to all apps. It isn’t meant to be an exhastive list of ways to improve UX, but adoption of some ideas can help improve a user’s experience in any app.</p>
+
+<h3 id="its-all-in-the-details">It’s all in the details.</h3>
+
+<h3 id="improving-accessibilty">Improving Accessibilty</h3>
+
+<p>Dealing with complex inputs in an app is a hard thing to get right. You have to take a step back and think about how the user would <em>want</em> your app to handle them. The ability to have empathy and see your app from the user perspective an iOS developer is key to being able to improve UX.</p>
+
+<p>keyboard selector for splits
+accessory buttosn for predicting text input
+textfield editing in a tableiview</p>
+
+<h3 id="improving-the-feel">Improving the Feel</h3>
+
+<p>A great iOS app isn’t just <em>easy</em> to use, but it <em>feels</em> good to use too. This is the difference between iOS and Android. A user wants to feel rewarded after preforming an action. That reward can come in many different forms, like a smooth animation or haptic feedback just to name a few.</p>
+
+<p>UISegmentedControls are a great place to start for adding haptic feedback to an app. Try touching a segmented control with and without haptic feedback added to it. The result will make you never want to add one to your app without haptics ever again. And, thanks to Swift, this is an incredibly easy improvement to make.</p>
+
+<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="kd">private</span> <span class="k">let</span> <span class="nv">selectionFeedbackGenerator</span> <span class="o">=</span> <span class="kt">UISelectionFeedbackGenerator</span><span class="p">()</span>
+
+<span class="kd">@IBAction</span> <span class="kd">func</span> <span class="nf">segmentedControlChanged</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UISegmentedControl</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">if</span> <span class="kt">UserDefaults</span><span class="o">.</span><span class="n">standard</span><span class="o">.</span><span class="nf">bool</span><span class="p">(</span><span class="nv">forKey</span><span class="p">:</span> <span class="s">"isHapticsEnabled"</span><span class="p">)</span> <span class="p">{</span>
+		<span class="n">selectionFeedbackGenerator</span><span class="o">.</span><span class="nf">selectionChanged</span><span class="p">()</span>
+	<span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+:ET
