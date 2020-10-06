@@ -1,0 +1,32 @@
+I"Q<center><a href="https://apps.apple.com/us/app/color-convert-hex-to-uicolor/id1530645748?itsct=apps_box&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-US?size=250x83&amp;releaseDate=1600560000&amp;h=9c38df89355baa8d3dc2c6f93dd2d812" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;" /></a></center>
+
+<h3 id="motivation">Motivation</h3>
+
+<p>During my first computer science build week at Lambda School, I built Conway’s Game of Life as an iOS app. The app is complete with a library of presents, the ability to play, pause, skip forward, and wipe the board. It also allows the user to tap the cells, toggling them as alive or dead. I was extremely happy with how the app turned out and I am specifically proud of the UI.</p>
+
+<h3 id="key-value-observing">Key-Value Observing</h3>
+
+<p>In order to update the current generation number and live cell population as they fluctuated, I needed to use key-value observing. I had previously used KVO in an Objective-C project, so it was interesting to see how it works in Swift.</p>
+
+<p>I first conformed the <code class="highlighter-rouge">GameBoard</code> class to <code class="highlighter-rouge">NSObject</code>. Then I added the <code class="highlighter-rouge">@objc dynamic</code> attributes to the generation and population variables.</p>
+
+<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="kd">class</span> <span class="kt">GameBoard</span><span class="p">:</span> <span class="kt">NSObject</span> <span class="p">{</span>
+    <span class="c1">// MARK: - Properties</span>
+    <span class="kd">@objc</span> <span class="kd">dynamic</span> <span class="k">var</span> <span class="nv">generation</span><span class="p">:</span> <span class="kt">Int</span>
+    <span class="kd">@objc</span> <span class="kd">dynamic</span> <span class="k">var</span> <span class="nv">population</span><span class="p">:</span> <span class="kt">Int</span>
+    <span class="o">...</span></code></pre></figure>
+
+<p>Back in the <code class="highlighter-rouge">GameOfLifeViewController</code>, I set up the observers to configure the labels.</p>
+
+<figure class="highlight"><pre><code class="language-swift" data-lang="swift"><span class="kd">private</span> <span class="k">var</span> <span class="nv">generationObserver</span><span class="p">:</span> <span class="kt">NSKeyValueObservation</span><span class="p">?</span>
+<span class="kd">private</span> <span class="k">var</span> <span class="nv">populationObserver</span><span class="p">:</span> <span class="kt">NSKeyValueObservation</span><span class="p">?</span>
+
+<span class="n">generationObserver</span> <span class="o">=</span> <span class="n">golView</span><span class="o">.</span><span class="n">gameBoard</span><span class="o">.</span><span class="nf">observe</span><span class="p">(\</span><span class="o">.</span><span class="n">generation</span><span class="p">)</span> <span class="p">{</span> <span class="p">[</span><span class="k">weak</span> <span class="k">self</span><span class="p">]</span> <span class="n">object</span><span class="p">,</span> <span class="n">_</span>  <span class="k">in</span>
+	<span class="k">self</span><span class="p">?</span><span class="o">.</span><span class="n">generationLabel</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"Generation</span><span class="se">\n\(</span><span class="n">object</span><span class="o">.</span><span class="n">generation</span><span class="se">)</span><span class="s">"</span>
+<span class="p">}</span>
+
+<span class="n">populationObserver</span> <span class="o">=</span> <span class="n">golView</span><span class="o">.</span><span class="n">gameBoard</span><span class="o">.</span><span class="nf">observe</span><span class="p">(\</span><span class="o">.</span><span class="n">population</span><span class="p">)</span> <span class="p">{</span> <span class="p">[</span><span class="k">weak</span> <span class="k">self</span><span class="p">]</span> <span class="n">object</span><span class="p">,</span> <span class="n">_</span> <span class="k">in</span>
+	<span class="k">self</span><span class="p">?</span><span class="o">.</span><span class="n">populationLabel</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"Population</span><span class="se">\n\(</span><span class="n">object</span><span class="o">.</span><span class="n">population</span><span class="se">)</span><span class="s">"</span>
+<span class="p">}</span></code></pre></figure>
+
+:ET

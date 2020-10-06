@@ -9,42 +9,12 @@ desc: "Available on the App Store"
 tags: [iOS] # add tag
 ---
 
-<!-- View on GitHub -->
-<center><a class="github-button" href="https://github.com/wyattharrell/Conways-Game-of-Life" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Use this template wyattharrell/istats on GitHub">View on GitHub</a></center>
+<center><a href="https://apps.apple.com/us/app/color-convert-hex-to-uicolor/id1530645748?itsct=apps_box&itscg=30200" target="_blank" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2019-09-29&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a></center>
 
-> The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves. It is Turing complete and can simulate a universal constructor or any other Turing machine.
--- <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">Conway's Game of Life, *Wikipedia*</a>
+Color Convert lets you easily convert Hex & RGB color values to UIColor. Copy code snippets in Swift, Objective-C, and Xamarin. Color Convert supports Handoff for copying and pasting between your iCloud devices. It also features a color picker for selecting custom colors. Convert your Hex values to UIColor and save your favorite colors for viewing later!
 
 ### Motivation
 
-During my first computer science build week at Lambda School, I built Conway's Game of Life as an iOS app. The app is complete with a library of presents, the ability to play, pause, skip forward, and wipe the board. It also allows the user to tap the cells, toggling them as alive or dead. I was extremely happy with how the app turned out and I am specifically proud of the UI.
+I wanted to make a product that iOS developers could use everyday. Something that would have an impact on how they wrote code while making an everyday task easier for them. I chose to create an app that allows them to easily convert Hex to UIColor, something that I found myself doing a lot. 
 
-### Key-Value Observing
-
-In order to update the current generation number and live cell population as they fluctuated, I needed to use key-value observing. I had previously used KVO in an Objective-C project, so it was interesting to see how it works in Swift. 
-
-I first conformed the `GameBoard` class to `NSObject`. Then I added the `@objc dynamic` attributes to the generation and population variables.
-
-{% highlight swift %}
-class GameBoard: NSObject {
-    // MARK: - Properties
-    @objc dynamic var generation: Int
-    @objc dynamic var population: Int
-    ...
-{% endhighlight %}
-
-Back in the `GameOfLifeViewController`, I set up the observers to configure the labels.
-
-{% highlight swift %}
-private var generationObserver: NSKeyValueObservation?
-private var populationObserver: NSKeyValueObservation?
-
-generationObserver = golView.gameBoard.observe(\.generation) { [weak self] object, _  in
-	self?.generationLabel.text = "Generation\n\(object.generation)"
-}
-
-populationObserver = golView.gameBoard.observe(\.population) { [weak self] object, _ in
-	self?.populationLabel.text = "Population\n\(object.population)"
-}
-{% endhighlight %}
-
+Color Convert is written **100% programmatically** without the use of storyboards. It also incorporates **view animations** and **Handoff** between devices using UIPasteboard. On release, Color Convert reached the top charts at **#53 for Developer Tools in the App Store.** 
