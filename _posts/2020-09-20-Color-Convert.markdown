@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Conway's Game of Life"
-date: 2020-06-23 00:00:00 +0300
+title: "Color Convert"
+date: 2020-09-20 00:00:00 +0300
 description: # Add post description (optional)
-img: conwaysgameoflife.png # Add image post (optional)
-b_img: conwaysgameoflife.png # Add post image (optional)
-desc: "Lambda School - Build Week 5"
+img: colorconvert.png # Add image post (optional)
+b_img: colorconvert.png # Add post image (optional)
+desc: "Available on the App Store"
 tags: [iOS] # add tag
 ---
 
