@@ -50,3 +50,4 @@ populationObserver = golView.gameBoard.observe(\.population) { [weak self] objec
 }
 {% endhighlight %}
 
+<img src="/assets/img/conwaysgameoflife_ex1.png" alt="Game of Life">
