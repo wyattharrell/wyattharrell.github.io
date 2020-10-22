@@ -11,8 +11,9 @@ tags: [iOS] # add tag
 
 <center><a href="https://apps.apple.com/us/app/nametag-name-your-phone/id1478572691?mt=8" target="_blank" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2019-09-29&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a></center>
 
-You carry around a luggage tag for when you lose your suitcase, why not do the same for when you lose your phone? Nametag allows you to display your basic contact details on your lock screen when someone swipes right, even when it is locked. Create your Nametag and never lose your phone again. Nametag is like an always-on "lost mode" that lets you display your name, email address, and an emergency contact number to help whoever finds your phone get in touch with you to easily return your lost phone. If you constantly leave your phone behind, or just want some peace of mind, let Nametag help you reclaim your lost phone.
+### About
 
+You carry around a luggage tag for when you lose your suitcase, why not do the same for when you lose your phone? Nametag allows you to display your basic contact details on your lock screen when someone swipes right, even when it is locked. Create your Nametag and never lose your phone again. Nametag is like an always-on "lost mode" that lets you display your name, email address, and an emergency contact number to help whoever finds your phone get in touch with you to easily return your lost phone. If you constantly leave your phone behind or just want some peace of mind, let Nametag help you reclaim your lost phone.
 
 ### Motivation
 

@@ -11,6 +11,8 @@ tags: [iOS] # add tag
 
 <center><a href="https://apps.apple.com/us/app/color-convert-hex-to-uicolor/id1530645748?itsct=apps_box&itscg=30200" target="_blank" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2019-09-29&kind=iossoftware&bubble=ios_apps) no-repeat;width:135px;height:40px;"></a></center>
 
+### About
+
 Color Convert lets you easily convert Hex & RGB color values to UIColor. Copy code snippets in Swift, Objective-C, and Xamarin. Color Convert supports Handoff for copying and pasting between your iCloud devices. It also features a color picker for selecting custom colors. Convert your Hex values to UIColor and save your favorite colors for viewing later!
 
 ### Motivation

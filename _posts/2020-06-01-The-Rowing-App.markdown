@@ -15,7 +15,6 @@ As a 2015 United States Junior National Team coxswain, I am excited to be develo
 
 ### Features
 
-
 - Fleet, Rower, Lineup Management
 - Workout logs
 - Tools
