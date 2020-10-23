@@ -5,7 +5,7 @@ date: 2020-09-25 00:00:00 +0300
 description: # Add post description (optional)
 img: ecosoap.png # Add image post (optional)
 b_img: ecosoap.png # Add post image (optional)
-desc: "Lambda School Labs"
+desc: "Lambda School - Labs"
 tags: [iOS] # add tag
 ---
 
