@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Retake Camera App"
+date: 2020-05-29 00:00:00 +0300
+description: # Add post description (optional)
+img: retake.png # Add image post (optional)
+b_img: retake.png # Add post image (optional)
+desc: "Lambda School - Build Week 4"
+tags: [iOS] # add tag
+---
+
+### About
+
+Retake is a custom camera app built using AVFoundation, ARKit, MapKit, and Core Data to allow users to create perfect time-lapses without the need for a tripod. Retake's custom camera overlays the previous photo taken in a collection in order to precisely line up the new photo. It uses MapKit to show the general area the photo was take as well as ARKit to show the exact spot in augmented reality. 
+
+<img src="/assets/img/retake_ex1.png" alt="Retake">
+<img src="/assets/img/retake_ex2.png" alt="Retake">

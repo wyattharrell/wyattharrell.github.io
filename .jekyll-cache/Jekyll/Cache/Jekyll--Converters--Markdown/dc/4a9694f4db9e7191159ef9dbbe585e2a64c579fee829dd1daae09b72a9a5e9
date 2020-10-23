@@ -1,0 +1,8 @@
+I")<h3 id="about">About</h3>
+
+<p>Retake is a custom camera app built using AVFoundation, ARKit, MapKit, and Core Data to allow users to create perfect time-lapses without the need for a tripod. Retake’s custom camera overlays the previous photo taken in a collection in order to precisely line up the new photo. It uses MapKit to show the general area the photo was take as well as ARKit to show the exact spot in augmented reality.</p>
+
+<p><img src="/assets/img/retake_ex1.png" alt="Retake" />
+<img src="/assets/img/retake_ex2.png" alt="Retake" /></p>
+
+:ET

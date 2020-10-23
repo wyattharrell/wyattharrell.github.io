@@ -1,0 +1,5 @@
+I"<h3 id="about">About</h3>
+
+<p>As my second building exercise at Lambda School, I worked in a cross-functional team of web developers, data scientists, and iOS developers. I assumed the senior iOS developer role and led my team to create a how-to tutorial app. The app featured login and registration for both an instructor and a user. Users were able to view and bookmark their favorite tutorials while instructors could create and share new tutorials within the app. Each user would be presented with their corresponding onboarding processes upon registration. Once logged in, they were presented with a feed of tutorials sorted by the number of likes. They could view, search, and bookmark these tutorials. Once bookmarked, a tutorial was added to CoreData for offline viewing.</p>
+
+:ET
