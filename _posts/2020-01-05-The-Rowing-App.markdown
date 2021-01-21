@@ -1,30 +1,19 @@
 ---
 layout: post
 title: "The Rowing App"
-date: 2020-06-05 00:00:00 +0300
+date: 2021-01-05 00:00:00 +0300
 description: # Add post description (optional)
 img: therowingapp.png # Add image post (optional)
 b_img: therowingapp_banner.png # Add post image (optional)
-desc: "Coming soon to macOS and iOS"
+desc: "Available on the App Store"
 tags: [iOS] # add tag
 ---
 
 <center><a href="https://twitter.com/therowingapp?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @therowingapp</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
 
-As a 2015 United States Junior National Team coxswain, I am excited to be developing an app for rowing coaches and athletes. Coming soon to iOS and macOS.
+<a href="https://therowing.app">The Rowing App</a> is the go-to rowing app for rowers and coaches created by former US Junior National Team coxswain, Wyatt Harrell. 
 
-### Features
-
-- Fleet, Rower, Lineup Management
-- Workout logs
-- Tools
-	- Pace Calculator
-	- VO2max Calculator
-	- Stroke Rate Timer
-	- Calorie Calculator
-	- Weight Adjustment Calculator
-	- Watts Converter
-	- Multiple Stopwatches
+The Rowing App features six coaching tools including a stroke rate timer, pace calculator, VO2max calculator, and many more. It also provides coaches with the ability to manage their boats and roster while building daily lineups and recording workouts.
 
 ### Updates
 

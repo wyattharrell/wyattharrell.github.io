@@ -25,10 +25,6 @@
 <lastmod>2020-05-28T17:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/The-Rowing-App/</loc>
-<lastmod>2020-06-04T17:00:00-04:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/Game-Of-Life/</loc>
 <lastmod>2020-06-22T17:00:00-04:00</lastmod>
 </url>
@@ -41,6 +37,10 @@
 <lastmod>2020-09-24T17:00:00-04:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/The-Rowing-App/</loc>
+<lastmod>2021-01-04T16:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about-me</loc>
 </url>
 <url>
@@ -51,6 +51,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/assets/Wyatt_Harrell_Resume.pdf</loc>
-<lastmod>2020-10-22T20:16:56-04:00</lastmod>
+<lastmod>2021-01-21T11:02:29-05:00</lastmod>
 </url>
 </urlset>
